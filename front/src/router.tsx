@@ -3,12 +3,9 @@ import { lazy, Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import NotFound from "@/pages/not-found/not-found";
 import { Skeleton } from "./components/ui/skeleton";
-import Leads from "./pages/leads/leads";
 import { AppLayout } from "./components/layouts/app-layout";
 import Home from "./pages/home/home";
-import ProgramsTable from "@/components/programs/components/ProgramsTable";
-import TrackingTable from "@/components/trackings/components/TrackingTable";
-import LeadsTable from "@/components/leads/components/LeadsTable";
+import { Leads, LeadsTable, ProgramsTable, TrackingTable } from "@/pages/index";
 
 const Login = lazy(() => import("@/pages/auth/login"));
 const router = createBrowserRouter([
