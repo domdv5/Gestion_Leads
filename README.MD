@@ -55,13 +55,6 @@ npm run cli -- --seeder trackingSeeder -f
 
 **Nota**: Ejecutar estos seeders es **indispensable** para que la aplicación funcione correctamente. Sin ellos, no podrás autenticarte, ver programas o ver seguimientos.
 
-## Notas Importantes
-
-- **Seeders Indispensables**: Como se mencionó, los seeders deben ejecutarse para poblar datos críticos. Sin ellos, la aplicación no funcionará adecuadamente.
-- **Autenticación**: Usa JWT para proteger rutas. Los usuarios iniciales se crean con `initSeeder`.
-- **Base de Datos**: Asegúrate de que MongoDB esté corriendo si usas una instancia local.
-- **Desarrollo**: El proyecto usa TypeScript para mayor robustez y mantenibilidad.
-- **UI**: La interfaz utiliza componentes de Shadcn/ui para una experiencia consistente.
 
 ## Licencia
 
