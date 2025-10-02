@@ -18,7 +18,7 @@ Esta es una aplicación full-stack para la gestión de leads, programas y seguim
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/domdv5/Gestion_Leads.git
 cd prueba-kuepa
 ```
 
